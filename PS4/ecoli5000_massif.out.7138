@@ -1,0 +1,691 @@
+desc: (none)
+cmd: ./ED
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=3894103
+mem_heap_B=96003
+mem_heap_extra_B=85
+mem_stacks_B=0
+heap_tree=detailed
+n3: 96003 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4907C19: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+  n1: 72704 0x4011B89: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4011C90: call_init (dl-init.c:30)
+    n1: 72704 0x4011C90: _dl_init (dl-init.c:119)
+     n0: 72704 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ n1: 19203 0x49A3E7D: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+  n2: 19203 0x4925194: std::basic_istream<char, std::char_traits<char> >& std::operator>><char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+   n0: 11522 0x10A5EF: main (in /home/roland141/PS4/ED)
+   n0: 7681 0x10A5D9: main (in /home/roland141/PS4/ED)
+ n1: 4096 0x4AE1E83: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x4AF204F: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x4AF0E23: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n1: 4096 0x4AF2105: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x496A720: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+      n1: 4096 0x4978D7E: std::istream::sentry::sentry(std::istream&, bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+       n1: 4096 0x4924F66: std::basic_istream<char, std::char_traits<char> >& std::operator>><char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+        n0: 4096 0x10A5D9: main (in /home/roland141/PS4/ED)
+#-----------
+snapshot=2
+#-----------
+time=8575960
+mem_heap_B=2172578
+mem_heap_extra_B=2078
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=12845576
+mem_heap_B=4252994
+mem_heap_extra_B=4158
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=18100488
+mem_heap_B=6813506
+mem_heap_extra_B=6718
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=20727944
+mem_heap_B=8093762
+mem_heap_extra_B=7998
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=23930156
+mem_heap_B=9654074
+mem_heap_extra_B=9558
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=27214476
+mem_heap_B=11254394
+mem_heap_extra_B=11158
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=30498796
+mem_heap_B=12854714
+mem_heap_extra_B=12758
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=35261060
+mem_heap_B=15175178
+mem_heap_extra_B=15078
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=40515972
+mem_heap_B=17735690
+mem_heap_extra_B=17638
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=45770884
+mem_heap_B=20296202
+mem_heap_extra_B=20198
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=48398340
+mem_heap_B=21576458
+mem_heap_extra_B=21478
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=51025796
+mem_heap_B=22856714
+mem_heap_extra_B=22758
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=53653252
+mem_heap_B=24136970
+mem_heap_extra_B=24038
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=56280708
+mem_heap_B=25417226
+mem_heap_extra_B=25318
+mem_stacks_B=0
+heap_tree=detailed
+n2: 25417226 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 25185036 0x10CDE1: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/roland141/PS4/ED)
+  n1: 25185036 0x10CAD0: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/roland141/PS4/ED)
+   n1: 25185036 0x10C785: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/roland141/PS4/ED)
+    n1: 25185036 0x10C0A9: std::vector<int, std::allocator<int> >::_M_default_append(unsigned long) (in /home/roland141/PS4/ED)
+     n1: 25185036 0x10B9A0: std::vector<int, std::allocator<int> >::resize(unsigned long) (in /home/roland141/PS4/ED)
+      n1: 25185036 0x10AE7C: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (in /home/roland141/PS4/ED)
+       n0: 25185036 0x10A63E: main (in /home/roland141/PS4/ED)
+ n0: 232190 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=16
+#-----------
+time=58908164
+mem_heap_B=26697482
+mem_heap_extra_B=26598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=61535620
+mem_heap_B=27977738
+mem_heap_extra_B=27878
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=64163076
+mem_heap_B=29257994
+mem_heap_extra_B=29158
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=66790532
+mem_heap_B=30538250
+mem_heap_extra_B=30438
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=69417988
+mem_heap_B=31818506
+mem_heap_extra_B=31718
+mem_stacks_B=0
+heap_tree=detailed
+n2: 31818506 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 31586316 0x10CDE1: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/roland141/PS4/ED)
+  n1: 31586316 0x10CAD0: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/roland141/PS4/ED)
+   n1: 31586316 0x10C785: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/roland141/PS4/ED)
+    n1: 31586316 0x10C0A9: std::vector<int, std::allocator<int> >::_M_default_append(unsigned long) (in /home/roland141/PS4/ED)
+     n1: 31586316 0x10B9A0: std::vector<int, std::allocator<int> >::resize(unsigned long) (in /home/roland141/PS4/ED)
+      n1: 31586316 0x10AE7C: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (in /home/roland141/PS4/ED)
+       n0: 31586316 0x10A63E: main (in /home/roland141/PS4/ED)
+ n0: 232190 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=21
+#-----------
+time=72045444
+mem_heap_B=33098762
+mem_heap_extra_B=32998
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=74672900
+mem_heap_B=34379018
+mem_heap_extra_B=34278
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=77300356
+mem_heap_B=35659274
+mem_heap_extra_B=35558
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=80584676
+mem_heap_B=37259594
+mem_heap_extra_B=37158
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=83212132
+mem_heap_B=38539850
+mem_heap_extra_B=38438
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=85839588
+mem_heap_B=39820106
+mem_heap_extra_B=39718
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=88467044
+mem_heap_B=41100362
+mem_heap_extra_B=40998
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=91094500
+mem_heap_B=42380618
+mem_heap_extra_B=42278
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=93721956
+mem_heap_B=43660874
+mem_heap_extra_B=43558
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=96349412
+mem_heap_B=44941130
+mem_heap_extra_B=44838
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=98976868
+mem_heap_B=46221386
+mem_heap_extra_B=46118
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=101604324
+mem_heap_B=47501642
+mem_heap_extra_B=47398
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=104231780
+mem_heap_B=48781898
+mem_heap_extra_B=48678
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=106859236
+mem_heap_B=50062154
+mem_heap_extra_B=49958
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=109486692
+mem_heap_B=51342410
+mem_heap_extra_B=51238
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=112114148
+mem_heap_B=52622666
+mem_heap_extra_B=52518
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=114741604
+mem_heap_B=53902922
+mem_heap_extra_B=53798
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=117369060
+mem_heap_B=55183178
+mem_heap_extra_B=55078
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=119996516
+mem_heap_B=56463434
+mem_heap_extra_B=56358
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=122623972
+mem_heap_B=57743690
+mem_heap_extra_B=57638
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=125251428
+mem_heap_B=59023946
+mem_heap_extra_B=58918
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=127878884
+mem_heap_B=60304202
+mem_heap_extra_B=60198
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=130506340
+mem_heap_B=61584458
+mem_heap_extra_B=61478
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=133133796
+mem_heap_B=62864714
+mem_heap_extra_B=62758
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=135761252
+mem_heap_B=64144970
+mem_heap_extra_B=64038
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=138388708
+mem_heap_B=65425226
+mem_heap_extra_B=65318
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=141016164
+mem_heap_B=66705482
+mem_heap_extra_B=66598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=143643620
+mem_heap_B=67985738
+mem_heap_extra_B=67878
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=146271076
+mem_heap_B=69265994
+mem_heap_extra_B=69158
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=148898532
+mem_heap_B=70546250
+mem_heap_extra_B=70438
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=151525988
+mem_heap_B=71826506
+mem_heap_extra_B=71718
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=154153444
+mem_heap_B=73106762
+mem_heap_extra_B=72998
+mem_stacks_B=0
+heap_tree=detailed
+n2: 73106762 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72874572 0x10CDE1: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/roland141/PS4/ED)
+  n1: 72874572 0x10CAD0: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/roland141/PS4/ED)
+   n1: 72874572 0x10C785: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/roland141/PS4/ED)
+    n1: 72874572 0x10C0A9: std::vector<int, std::allocator<int> >::_M_default_append(unsigned long) (in /home/roland141/PS4/ED)
+     n1: 72874572 0x10B9A0: std::vector<int, std::allocator<int> >::resize(unsigned long) (in /home/roland141/PS4/ED)
+      n1: 72874572 0x10AE7C: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (in /home/roland141/PS4/ED)
+       n0: 72874572 0x10A63E: main (in /home/roland141/PS4/ED)
+ n0: 232190 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=53
+#-----------
+time=156780900
+mem_heap_B=74387018
+mem_heap_extra_B=74278
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=159408356
+mem_heap_B=75667274
+mem_heap_extra_B=75558
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=162035812
+mem_heap_B=76947530
+mem_heap_extra_B=76838
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=164663268
+mem_heap_B=78227786
+mem_heap_extra_B=78118
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=167290724
+mem_heap_B=79508042
+mem_heap_extra_B=79398
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=169918180
+mem_heap_B=80788298
+mem_heap_extra_B=80678
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=172545636
+mem_heap_B=82068554
+mem_heap_extra_B=81958
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=175173092
+mem_heap_B=83348810
+mem_heap_extra_B=83238
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=177800548
+mem_heap_B=84629066
+mem_heap_extra_B=84518
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=180428004
+mem_heap_B=85909322
+mem_heap_extra_B=85798
+mem_stacks_B=0
+heap_tree=detailed
+n2: 85909322 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 85677132 0x10CDE1: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/roland141/PS4/ED)
+  n1: 85677132 0x10CAD0: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/roland141/PS4/ED)
+   n1: 85677132 0x10C785: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/roland141/PS4/ED)
+    n1: 85677132 0x10C0A9: std::vector<int, std::allocator<int> >::_M_default_append(unsigned long) (in /home/roland141/PS4/ED)
+     n1: 85677132 0x10B9A0: std::vector<int, std::allocator<int> >::resize(unsigned long) (in /home/roland141/PS4/ED)
+      n1: 85677132 0x10AE7C: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (in /home/roland141/PS4/ED)
+       n0: 85677132 0x10A63E: main (in /home/roland141/PS4/ED)
+ n0: 232190 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=63
+#-----------
+time=183055460
+mem_heap_B=87189578
+mem_heap_extra_B=87078
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=185682916
+mem_heap_B=88469834
+mem_heap_extra_B=88358
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=188310372
+mem_heap_B=89750090
+mem_heap_extra_B=89638
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=190937828
+mem_heap_B=91030346
+mem_heap_extra_B=90918
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=193565284
+mem_heap_B=92310602
+mem_heap_extra_B=92198
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=196192740
+mem_heap_B=93590858
+mem_heap_extra_B=93478
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=198820196
+mem_heap_B=94871114
+mem_heap_extra_B=94758
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=201447652
+mem_heap_B=96151370
+mem_heap_extra_B=96038
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=204075108
+mem_heap_B=97431626
+mem_heap_extra_B=97318
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=206702564
+mem_heap_B=98711882
+mem_heap_extra_B=98598
+mem_stacks_B=0
+heap_tree=detailed
+n2: 98711882 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 98479692 0x10CDE1: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/roland141/PS4/ED)
+  n1: 98479692 0x10CAD0: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/roland141/PS4/ED)
+   n1: 98479692 0x10C785: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/roland141/PS4/ED)
+    n1: 98479692 0x10C0A9: std::vector<int, std::allocator<int> >::_M_default_append(unsigned long) (in /home/roland141/PS4/ED)
+     n1: 98479692 0x10B9A0: std::vector<int, std::allocator<int> >::resize(unsigned long) (in /home/roland141/PS4/ED)
+      n1: 98479692 0x10AE7C: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (in /home/roland141/PS4/ED)
+       n0: 98479692 0x10A63E: main (in /home/roland141/PS4/ED)
+ n0: 232190 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=73
+#-----------
+time=209330020
+mem_heap_B=99992138
+mem_heap_extra_B=99878
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=211445509
+mem_heap_B=100272194
+mem_heap_extra_B=100158
+mem_stacks_B=0
+heap_tree=peak
+n2: 100272194 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 100040004 0x10CDE1: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/roland141/PS4/ED)
+  n1: 100040004 0x10CAD0: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/roland141/PS4/ED)
+   n1: 100040004 0x10C785: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/roland141/PS4/ED)
+    n1: 100040004 0x10C0A9: std::vector<int, std::allocator<int> >::_M_default_append(unsigned long) (in /home/roland141/PS4/ED)
+     n1: 100040004 0x10B9A0: std::vector<int, std::allocator<int> >::resize(unsigned long) (in /home/roland141/PS4/ED)
+      n1: 100040004 0x10AE7C: ED::ED(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (in /home/roland141/PS4/ED)
+       n0: 100040004 0x10A63E: main (in /home/roland141/PS4/ED)
+ n0: 232190 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=75
+#-----------
+time=16313211015
+mem_heap_B=100263247
+mem_heap_extra_B=100145
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=16317383410
+mem_heap_B=100263216
+mem_heap_extra_B=100136
+mem_stacks_B=0
+heap_tree=empty
