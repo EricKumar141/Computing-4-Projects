@@ -1,0 +1,57 @@
+Device Boot Report
+InTouch log file: device6_intouch.log
+
+2014-04-03 20:27:48: (log.c.166) server started at line: 2
+2014-04-03 20:31:01: Startup Success 
+Elasped Time: 193000 ms
+
+2014-04-09 14:51:15: (log.c.166) server started at line: 82079
+2014-04-09 14:54:39: Startup Success 
+Elasped Time: 204000 ms
+
+2014-04-10 18:13:13: (log.c.166) server started at line: 85398
+2014-04-10 18:16:37: Startup Success 
+Elasped Time: 204000 ms
+
+2014-04-10 19:11:05: (log.c.166) server started at line: 85957
+2014-04-10 19:14:24: Startup Success 
+Elasped Time: 199000 ms
+
+2014-04-10 19:18:36: (log.c.166) server started at line: 86127
+2014-04-10 19:21:56: Startup Success 
+Elasped Time: 200000 ms
+
+2014-04-10 19:32:16: (log.c.166) server started at line: 86568
+2014-04-10 19:35:36: Startup Success 
+Elasped Time: 200000 ms
+
+2014-04-10 20:06:27: (log.c.166) server started at line: 86750
+2014-04-10 20:09:07: Startup Success 
+Elasped Time: 160000 ms
+
+2014-04-11 00:15:56: (log.c.166) server started at line: 86939
+2014-04-11 00:18:49: Startup Success 
+Elasped Time: 173000 ms
+
+2014-04-11 13:28:25: (log.c.166) server started at line: 87116
+2014-04-11 13:31:12: Startup Success 
+Elasped Time: 167000 ms
+
+2014-04-11 13:58:02: (log.c.166) server started at line: 87836
+2014-04-11 14:00:49: Startup Success 
+Elasped Time: 167000 ms
+
+2014-04-11 14:23:42: (log.c.166) server started at line: 88983
+2014-04-11 14:26:31: Startup Success 
+Elasped Time: 169000 ms
+
+2014-04-14 12:13:59: (log.c.166) server started at line: 90112
+Startup failed 
+
+2014-04-14 12:16:13: (log.c.166) server started at line: 90135
+Startup failed 
+
+2014-04-14 12:18:44: (log.c.166) server started at line: 90176
+2014-04-14 12:21:25: Startup Success 
+Elasped Time: 161000 ms
+

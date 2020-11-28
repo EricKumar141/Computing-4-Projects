@@ -1,0 +1,63 @@
+Device Boot Report
+InTouch log file: device4_intouch.log
+
+2013-10-02 18:42:38: (log.c.166) server started at line: 4
+2013-10-02 18:45:23: Startup Success 
+Elasped Time: 165000 ms
+
+2013-10-03 12:23:21: (log.c.166) server started at line: 747
+2013-10-03 12:26:15: Startup Success 
+Elasped Time: 174000 ms
+
+2013-10-04 16:20:03: (log.c.166) server started at line: 1459
+2013-10-04 16:23:06: Startup Success 
+Elasped Time: 183000 ms
+
+2013-12-03 16:21:13: (log.c.166) server started at line: 31848
+2013-12-03 16:24:08: Startup Success 
+Elasped Time: 175000 ms
+
+2013-12-04 21:50:27: (log.c.166) server started at line: 32789
+2013-12-04 21:52:57: Startup Success 
+Elasped Time: 150000 ms
+
+2013-12-04 21:58:45: (log.c.166) server started at line: 33145
+2013-12-04 22:01:14: Startup Success 
+Elasped Time: 149000 ms
+
+2013-12-04 22:21:03: (log.c.166) server started at line: 33677
+2013-12-04 22:23:31: Startup Success 
+Elasped Time: 148000 ms
+
+2013-12-05 13:34:25: (log.c.166) server started at line: 45295
+2013-12-05 13:36:55: Startup Success 
+Elasped Time: 150000 ms
+
+2013-12-05 14:12:25: (log.c.166) server started at line: 45615
+2013-12-05 14:14:53: Startup Success 
+Elasped Time: 148000 ms
+
+2013-12-05 15:39:02: (log.c.166) server started at line: 46117
+2013-12-05 15:41:29: Startup Success 
+Elasped Time: 147000 ms
+
+2013-12-05 20:20:24: (log.c.166) server started at line: 46357
+2013-12-05 20:22:54: Startup Success 
+Elasped Time: 150000 ms
+
+2013-12-10 13:20:43: (log.c.166) server started at line: 46792
+2013-12-10 13:23:12: Startup Success 
+Elasped Time: 149000 ms
+
+2013-12-10 19:40:58: (log.c.166) server started at line: 47700
+2013-12-10 19:43:55: Startup Success 
+Elasped Time: 177000 ms
+
+2013-12-11 14:09:11: (log.c.166) server started at line: 48100
+2013-12-11 14:11:41: Startup Success 
+Elasped Time: 150000 ms
+
+2013-12-11 14:17:49: (log.c.166) server started at line: 48345
+2013-12-11 14:20:46: Startup Success 
+Elasped Time: 177000 ms
+

@@ -1,0 +1,27 @@
+Device Boot Report
+InTouch log file: device1_intouch.log
+
+2014-03-25 19:11:59: (log.c.166) server started at line: 435369
+2014-03-25 19:15:02: Startup Success 
+Elasped Time: 183000 ms
+
+2014-03-25 19:29:59: (log.c.166) server started at line: 436500
+2014-03-25 19:32:44: Startup Success 
+Elasped Time: 165000 ms
+
+2014-03-25 22:01:46: (log.c.166) server started at line: 440719
+2014-03-25 22:04:27: Startup Success 
+Elasped Time: 161000 ms
+
+2014-03-26 12:47:42: (log.c.166) server started at line: 440866
+2014-03-26 12:50:29: Startup Success 
+Elasped Time: 167000 ms
+
+2014-03-26 20:41:34: (log.c.166) server started at line: 442094
+2014-03-26 20:44:13: Startup Success 
+Elasped Time: 159000 ms
+
+2014-03-27 14:09:01: (log.c.166) server started at line: 443073
+2014-03-27 14:11:42: Startup Success 
+Elasped Time: 161000 ms
+
