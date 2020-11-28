@@ -1,0 +1,38 @@
+/**********************************************************************
+ *  Linear Feedback Shift Register (part B) ps1b-readme.txt template
+ **********************************************************************/
+
+Name: Eric Kumar
+
+Hours to complete assignment: 5 hours
+/**********************************************************************
+ *  Briefly discuss the assignment itself and what you accomplished.
+ **********************************************************************/
+	The assignment was to use our FibLSFR class from PS1 and SFML to encrypt/decrpyt images by changing its color. This was done by implementing the transform function that for every bit in the image, the rgb numerical values were xored with a 8 bit generated LSFR. The main program then takes in the two images to be encrypted/decrpyted and a 16 bit LSFR seed. I then transform the input image into the decrypted version of it and display both images. lastly I save the transformed image to the output image. If your re-run the program using the transformed image as the input image and the same 16 bit seed you get the original image from the transform function. this happens because the colors are xored with the generated 8 bit number making any bit with the same value 0 and different values 1 and when you rerun the program with the same seed the bits that changed values change back to the original color.
+
+
+
+
+/**********************************************************************
+ *  If you did any implementation for extra credit, describe it
+ *  here and why it is interesting.
+ **********************************************************************/
+
+
+
+
+/**********************************************************************
+ *  List whatever help (if any) you received from the instructor,
+ *  classmates, or anyone else.
+ **********************************************************************/
+SFML website, pixel.cpp
+
+/**********************************************************************
+ *  Describe any serious problems you encountered.                    
+ **********************************************************************/
+
+
+/**********************************************************************
+ *  List any other comments here.                                     
+ **********************************************************************/
+
